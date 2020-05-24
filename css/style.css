@@ -1,0 +1,397 @@
+
+/* roboto-100italic - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 100;
+  src: url('roboto-v20-latin-100italic.eot'); /* IE9 Compat Modes */
+  src: local('Roboto Thin Italic'), local('Roboto-ThinItalic'),
+       url('/roboto-v20-latin-100italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('roboto-v20-latin-100italic.woff2') format('woff2'), /* Super Modern Browsers */
+       url('roboto-v20-latin-100italic.woff') format('woff'), /* Modern Browsers */
+       url('roboto-v20-latin-100italic.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('roboto-v20-latin-100italic.svg#Roboto') format('svg'); /* Legacy iOS */
+}
+/* roboto-regular - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('roboto-v20-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Roboto'), local('Roboto-Regular'),
+       url('roboto-v20-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('roboto-v20-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('roboto-v20-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('roboto-v20-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('roboto-v20-latin-regular.svg#Roboto') format('svg'); /* Legacy iOS */
+}
+img
+{
+  width : 150px; 
+  height : 150px;
+  border:2px solid yellow;
+  -moz-border-radius : 75px;
+  -webkit-border-radius : 75px;
+  border-radius : 75px;
+}
+.prénom
+{
+	color: #AABE33;
+	font-weight: 600;
+}
+.métier
+{
+	text-decoration:underline #AABE33;
+}
+h1
+{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 2.3em;
+
+}
+h2
+{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.3em;
+  border-bottom: 1px solid #AABE33;
+  text-underline-position: right;
+}
+h3
+{
+	font-family: 'Roboto';
+	color: #AABE33;
+	background-color: black;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.3em;
+	border-bottom: 1px solid #AABE33;
+	text-underline-position: right;
+}
+h4
+{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 200;
+	font-size: 1.1em;
+}
+h5
+{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 0.8em;
+}
+h6
+{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 0.8em;
+}
+
+
+p
+{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 100;	
+  font-size: 0.6em;
+  text-align:justify;
+}
+
+.profil
+{
+	border: none;
+	width: 538px;
+	margin: 5px;
+	padding-left: 70PX;
+	line-height: 10px;
+
+}
+.picture
+{
+	
+	width: 203px;
+	margin: 5px;
+	padding: 3PX;
+	padding-left: 50px;	
+	padding-bottom: 0PX;
+	padding-top: 0PX;
+	margin-top: 0PX;
+	margin-bottom: 0PX;
+	background-color:#AABE33; 
+	border: 1px solid #AABE33;
+
+}
+
+.form1
+{	
+	display: flex;
+    justify-content:flex-start;
+}
+.date-lieu1
+{
+	border: none;
+	width: 100px;
+	padding: 3PX;
+	margin: 5px;
+}
+.établissement1
+{
+	width: 438px;
+	margin: 5px;
+	padding: 3PX;
+}
+.puce_colore
+{
+	color: #AABE33;
+}
+.form2
+{	
+	display: flex;
+    justify-content:flex-start;
+}
+.date-lieu2
+{
+	border: none;
+	width: 100px;
+	padding: 3PX;
+	margin: 5px;
+}
+.établissement2
+{
+	border: none;
+	width: 438px;
+	margin: 5px;
+	padding: 3PX;
+
+}
+.élément1
+{
+	
+	width: 250px;
+	margin:5px;
+	padding: 3px;
+	height: 415px;
+	padding-bottom: 0PX;
+	padding-top: 0PX;
+	margin-top: 0PX;
+	margin-bottom: 0PX;
+	background-color: #AABE33; 
+	border:1px solid #AABE33;
+	text-align: center;
+
+}
+.élément1 p
+{
+	margin-left: 15px;
+}
+
+.élément2
+{
+	width: 538px;
+	margin: px;
+	padding: 3PX;
+}
+.expérience1
+{
+	display: flex;
+    justify-content:flex-start;
+}
+.periode1
+{
+	border: none;
+	width: 100px;
+	padding: 3PX;
+	margin: 5px;
+}
+.activité1
+{
+	width: 438px;
+	margin: 5px;
+	padding: 3PX;
+}	
+
+.expérience2
+{
+	display: flex;
+    justify-content:flex-start;
+}
+.periode2
+{
+	border: none;
+	width: 100px;
+	padding: 3PX;
+	margin: 5px;
+}
+.activité2
+{
+	border: none;
+	width: 438px;
+	margin: 5px;
+	padding: 3PX;
+}	
+.expérience3
+{
+	display: flex;
+    justify-content:flex-start;
+}
+.periode3
+{
+	border: none;
+	width: 100px;
+	padding: 3PX;
+	margin: 5px;
+}
+.activité3
+{
+	border: none;
+	width: 438px;
+	margin: 5px;
+	padding: 3PX;
+}	
+.élément3 p
+{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.élément3
+{
+	padding-bottom: 0PX;
+	padding-top: 0PX;
+	margin-top: 0PX;
+	margin-bottom: 0PX;
+	width: 250px;
+	margin: 5px;
+	padding: 3PX;
+	height: 539px;
+	background-color:#AABE33; 
+	border: 1px solid #AABE33;
+	text-align: center;
+}
+
+.élément4
+{
+	border: none;
+	width: 538px;
+	margin: 5px;
+	padding: 3PX;
+	
+}
+.élément5
+{
+
+	width: 250px;
+	margin: 5px;
+	padding: 3px;
+	height: 201.53px;
+	padding-bottom: 0PX;
+	padding-top: 0PX;
+	margin-top: 0PX;
+	margin-bottom: 0PX;
+	background-color:#AABE33; 
+	border: 1px solid #AABE33;
+	text-align: center;
+}
+.élément5 P
+{
+	margin-left: 45px;
+}
+.confiance1
+{
+	width: 250px;
+	margin: 5px;
+	padding: 3PX;
+}	
+.confiance2
+{
+	width: 250px;
+	margin: 5px;
+	padding: 3PX;
+}	
+.personnes
+{
+	display: flex;
+    justify-content:flex-start;
+}
+.élément6
+{
+	border: none;
+	width: 538px;
+	margin: 5px;
+	padding: 3PX;
+	
+}
+
+.introduction
+{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+
+.corps1
+{
+	display: flex;
+
+	align-items: stretch;
+	justify-content: space-between;
+
+}
+.corps2
+{
+	display: flex;
+	align-items: stretch;
+	justify-content: space-between;
+}
+.corps3
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+}
+
+.block
+{
+	display: inline-block;
+	vertical-align: top;
+    border: 1px solid #AABE33;
+}
+
+@media screen and (max-width: 980px)
+{
+	.introduction
+{
+  	display: flex;
+    flex-direction: column; 
+}
+
+.corps1
+{
+	display: flex;
+
+	flex-direction: column;
+
+}
+.corps2
+{
+	display: flex;
+	flex-direction: column-reverse;
+
+}
+.corps3
+{
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column-reverse;
+}
+
+}
+
+
+
+
