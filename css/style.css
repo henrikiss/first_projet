@@ -150,6 +150,21 @@ p
 {
 	color: #AABE33;
 }
+.fa-swimmer
+{
+	font-size: 40px;
+	border-radius: 50%;
+	border: yellow 1px solid;
+	padding: 10px 5px;
+}
+.fa-running,
+.fa-xbox
+{
+	font-size: 40px;
+	border-radius: 50%;
+	border: yellow 1px solid;
+	padding: 10px 12px;
+}
 .form2
 {	
 	display: flex;
