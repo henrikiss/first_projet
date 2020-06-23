@@ -34,7 +34,7 @@ justify-content:center;
 .prénom
 {
 	color: #AABE33;
-	font-weight: 600px;
+	font-weight: 400;
 }
 .métier
 {
@@ -51,7 +51,7 @@ h2
 {
   font-family: 'Roboto';
   font-style: normal;
-  font-weight: 100px;
+  font-weight: 100;
   font-size: 1.1em;
   border-bottom: 1px solid #AABE33;
   text-underline-position: right;
@@ -63,7 +63,7 @@ h3
 	color: #AABE33;
 	background-color: black;
 	font-style: normal;
-	font-weight: 100px;
+	font-weight: 100;
 	font-size: 1.2em;
 	border: black;
 }
@@ -71,21 +71,21 @@ h4
 {
 	font-family: 'Roboto';
 	font-style: normal;
-	font-weight: 100px;
+	font-weight: 100;
 	font-size: 1.1em;
 }
 h5
 {
   font-family: 'Roboto';
   font-style: normal;
-  font-weight: 100px;
+  font-weight: 100;
   font-size: 0.8em;
 }
 h6
 {
   font-family: 'Roboto';
   font-style: normal;
-  font-weight: 90px;
+  font-weight: 90;
   font-size: 0.8em;
 }
 
@@ -94,7 +94,7 @@ p
 {
   font-family: 'Roboto';
   font-style: normal;
-  font-weight: 90px;	
+  font-weight: 90;	
   font-size: 0.6em;
   text-align:justify;
 }
@@ -295,7 +295,7 @@ background-color:#AABE33; }
 }
 aside
 {
-	background-color: auto;
+	background-color: #AABE33;
 	width: 556px;
 	display: flex;
 	justify-content: center;
